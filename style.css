@@ -1,0 +1,134 @@
+body
+{
+    position: relative;
+    background-color:#FEFEFE;
+    top: 20px; 
+    width:80%;
+    margin:auto;
+}
+
+div
+{   
+    border-radius:0px;
+}
+
+a
+{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover
+{   
+    color:gold;
+}
+
+h1, h3, p, h2
+{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:100;
+    color: black;
+}
+
+#social
+{
+    height: 50px;
+}
+
+#social li
+{
+    list-style: none;
+    float: right;
+    margin-left: 10px;
+}
+
+#social img:hover
+{
+    height:36px;
+    width:36px;
+    transition:width .5s, height .5s;
+}
+
+#social img
+{
+    height:32px;
+    width:32px;
+    transition:width,height;
+}
+
+#social a:hover
+{
+    opacity: .7;
+	filter:alpha(opacity=70); 
+    height:36px;
+    width:36px;
+}
+
+#banner
+{
+    padding:5px;
+/*    background-color: #A0D6F1;*/
+    background-color:#A0D6F1;
+}
+
+#breadcrumbs p
+{
+    text-align: left;
+}
+
+.bpic
+{
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.bpic:hover .summary
+{
+    width: 100%;
+    height:250px;
+}
+
+.bpic:hover .summary p
+{
+    height:auto;
+    text-align: center;
+	visibility:visible;
+	display:inherit;
+}
+
+.summary
+{
+    height: 250px;
+/*    background-color: #A0D6F1;*/
+    background-color:rgba(160,214,241,.86);
+    padding:2px;
+    width:25%;
+    transition:width .5s;
+    overflow: hidden;
+}
+
+.summary p
+{
+	height:0px;
+	visibility:hidden;
+	transition:height .9s;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+#content h2
+{
+    text-decoration: underline;
+}
+
+#content h2, p, img
+{
+    text-align: left;
+    line-height: 150%;
+}
+
+iframe
+{
+    margin-left:10px;
+}
