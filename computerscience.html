@@ -3,12 +3,13 @@
     <head>
         <title>Mikey Kentaro Cho | Computer Science</title>
         <meta charset="UTF-8">
-         <meta name="description" content="Mikey Kentaro Cho's official website. A curriculum vitae!">
+        <meta name="description" content="Mikey Kentaro Cho's official website. A curriculum vitae!">
         <meta name="keywords" content="HTML,CSS,Mikey,Kentaro,Cho,Computers, Computer Engineering, UCSD, NASA, SpaceLearn, Mozzo Kush">
         <meta name="author" content="Mikey Kentaro Cho">
         <link rel = "stylesheet" type = "text/css" href = "style.css">
         <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Fira+Sans|Hammersmith+One' rel='stylesheet' type='text/css'>
         <link rel="icon" type="image/gif" href="images/favicon.gif">
     </head>
 
@@ -18,84 +19,154 @@
                 <li><a href="https://www.facebook.com/mikey.cho.7" target="_blank"><img src="social media icons/facebook_icon.png"></a></li>
                 <li><a href="https://plus.google.com/117412222781389894128/posts" target="_blank"><img src="social media icons/gp.png" ></a></li>
                 <li><a href="https://www.linkedin.com/profile/view?id=374196417&trk=nav_responsive_tab_profile" target="_blank"><img src="social media icons/linkedin.png"></a></li>
+                <li><a href="http://mikeykentaro.tumblr.com" target="_blank"><img src="social%20media%20icons/tumblr-icon.png"></a></li>
+                <li><a href="https://github.com/toepump" target="_blank"><img src="social%20media%20icons/gitcat.png"></a></li>
+
             </list>
         </div>
-        
+
         <a href = "index.html">
             <div id = "banner">
                 <h1>Mikey Kentaro Cho</h1>
                 <h3>Computer Engineering, Music, Adventure</h3>
             </div>
         </a>
-        
+
         <br>
         <hr>
         <br>
-        
+
         <div id = "breadcrumbs">
-            <p><a href ="index.html">Home</a> | <a href ="computerscience.html">Computer Engineering</a> | <a href="music.html">Music</a> | <a href="adventure.html">Adventure</a> | <a href = "Resume2014.pdf">Resume</a></p>
+            <p><a href ="index.html">Home</a> | <a href ="computerscience.html">Computer Engineering</a> | <a href="music.html">Music</a> | <a href="http://mikeykentaro.tumblr.com">Adventure</a> | <a href = "Resume2014.pdf">Resume</a></p>
         </div>
         <br>
         <br>
-        
+
         <div id = "content">
-            <h2>UCSD AUVSI</h2>
-                <p>The University of California, San Diego AUVSI Team is a competitive team of engineers and RC pilots that design, build, and fly an autonomous 
-                    airplane capable of self guided flight, takeoff, and landing as well as shooting photos and recognizing ground targets from altitudes of hundreds of feet.
-                    I am a member of the Embedded Systems team focusing on the autopiloting system and imagery controller. The autopilot module is the 3DR Pixhawk (ArduPilot Mega 2.6) for fixed wing aircraft and the autopilot software
-                    we are using is called MissionPlanner. Originally using a Teensy 3.1, we've elected to instead use an Arduino as an Imagery Controller that communicates with our OBC (Onboard Computer) as well as our Gimbal Controller, camera, and radio.
-                    My responsibities include the assembly and callibration of autopiloting sensors like the airspeed sensor, compass, GPS, buzzer, etc. as well as documenting and writing code for the imagery controller in C++. I also take part
-                    in writing the software associated with the onboard sensors. The project website is 
-                    <a href="http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CCAQFjAA&url=http%3A%2F%2Fauvsi.ucsd.edu%2F&ei=zrioVM_xF47coATi5oGwCg&usg=AFQjCNF3crKnAdIoMS9dxKGUWA8gMI7CqQ&sig2=eo47caE7yE-mL1N42uAHTg&bvm=bv.82001339,d.cGU"
-                        target="_blank">
-                        <span style="color:blue;text-decoration:underline;">here</span></a></p>
-                <img style = "display: block; margin-left:auto; margin-right: auto;" src="images/auvsi.jpg">
+            <div class = "content-inside">
+                <h1>BusyBlocks</h1>
+                    <img src="images/BusyBlocksSchedule.png">
+
+                    <p>
+                      BusyBlocks is a software project developed by several students at the University of California, San Diego.
+                      The web app creates a simple and intuitive way to find meeting times for groups with confusing and conflicting schedules.
+                      BusyBlocks was written in AngularJS, HTML5 and CSS and used the Parse database management system as well as the Google Calendar API and Angular Bootstrap library.
+                      I was the UI/UX Specialist in this project. This means that I was the main CSS code writer as well as the UI designer and UX leader but I also helped write HTML5
+                      code and AngularJS code especially through our refactoring sessions. BusyBlocks was a <b>top 4 finalist out of 17</b> software engineering projects.
+                      <br>
+                      <br>
+
+                      The project website is
+                      <a href="http://hipster.parseapp.com">
+                          <span style="color:blue;text-decoration:underline;">BusyBlocks</span>
+                      </a>.
+                    </p>
+
+                    <img src="images/BusyBlocksGroup.png">
+                    <p>
+                      BusyBlocks includes a small social element that allows users to create their own groups consisting of other users. This lets them find free times for specific
+                      groups by overlaying and abstracting each members schedule.
+                    </p>
+
+                    <img src="images/BusyBlocksInGroup.png">
+
+                    <p>
+                      After going into the group, you can see the schedules on top of each other and then also choose to see individual
+                      members' schedules to find free times for subgroups as well.
+                    </p>
+
+            </div>
+
             <br>
             <br>
             <br>
-            
-            <h2>Raspberry Pi</h2>
-                <p>Using the Raspberry Pi microcomputer, I have and continue to work on small electronics and robotics projects. For example, using the GoPiGo board (based on Arduino) and robot
-                chassis, I've assembled the hardware and software components of a remotely operated rover with live camera feedback. The rover is both highly customizable and
-                expandable. Using the GPIO pins on the RPi and the GoPiGo board (based on Arduino), you can control the motors for the wheels in either direction, control the servo packge for the camera, and more. The camera is a
-                Raspberry Pi "Pi Camera." Possible additions to the project include autonomy and computer vision elements.</p>
-                <img style = "display: block; margin-left:auto; margin-right: auto;" src="images/gopigo.jpg">
+
+            <div class = "content-inside">
+                <h1>UCSD AUVSI</h1>
+                    <img src="images/auvsi.jpg">
+
+                    <p>The University of California, San Diego AUVSI Team is a competitive team of engineers and RC pilots that design, build, and fly an autonomous
+                        airplane capable of self guided flight, takeoff, and landing as well as shooting photos and recognizing ground targets from altitudes of hundreds of feet.
+                        I am a member of the Embedded Systems team focusing on the autopiloting system, RC/Telemetry System, and (eventually) imagery controller.
+                        The autopilot module is the 3DR Pixhawk (ArduPilot Mega 2.6) for fixed wing aircraft and the autopilot software
+                        we are using is called MissionPlanner. We are using XPlane10 for the HIL Simulation. Originally using a Teensy 3.1, we've elected to instead use an Arduino
+                        as an Imagery Controller that communicates with our OBC (Onboard Computer) as well as our Gimbal Controller, camera, and radio.
+                        My responsibities include the calibration and assembly of the autopilot module with the flight sensors and RC/Telemetry hardware,
+                        the development of knowledge on hardware and software documentation,
+                        and the eventual documentation and utlization of code related to our imagery controller. The project website is
+                        <a href="http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CCAQFjAA&url=http%3A%2F%2Fauvsi.ucsd.edu%2F&ei=zrioVM_xF47coATi5oGwCg&usg=AFQjCNF3crKnAdIoMS9dxKGUWA8gMI7CqQ&sig2=eo47caE7yE-mL1N42uAHTg&bvm=bv.82001339,d.cGU"
+                            target="_blank">
+                            <span style="color:blue;text-decoration:underline;">here</span></a></p>
+                    <img src="images/diagram.jpg">
+                    <p>Here is a diagram of our payload. I have been part of the team responsible for interfacing the Ardu-Pilot Mega 2.6 with the FRSKY D8RII Plus (Piloting Receiver)
+                        and the RFD 900 (Ground Station Receiver). I will soon be contributing to the
+                        work surrounding the Teensy 3.1 (which is planned to be switched out for an Arduino).</p>
+            </div>
             <br>
             <br>
             <br>
-            
-            <h2>Spudnik</h2>
-                <p>Spudnik is a puzzle game featuring a potato in space. I introduced the puzzle mechanic and setting to a 2 of my friends
-                and fellow engineers who together programmed what we have so far (Vladimir Klimkiv and Saveen Chadalawada). Aside from the mechanic and setting, my other contributions have been in the department of 
-                music composition and sound effect assets. The game is still far from complete and I hope to contribute both to level design and coding from here on out. Spudnik is being developed
-                in the GameMaker Studio IDE and was started at a UCSD Game Jam (hackathon).</p>
-                 <img style = "display: block; margin-left:auto; margin-right: auto;" src="images/spudnik.png">
+
+            <div class = "content-inside">
+                <h1>Raspberry Pi</h1>
+                    <img src="images/gopigo.jpg">
+                    <p>Using the Raspberry Pi B+ microcomputer, I have and continue to work on small electronics and robotics projects.
+                        For example, using the GoPiGo board (based on Arduino and interfaces through the RPi GPIO Pins) and robot
+                        chassis, I've assembled the hardware and software components of a remotely operated rover. The rover is both highly customizable and
+                        expandable. Using the GPIO pins on the RPi and the GoPiGo board (based on Arduino), you can control the motors for the wheels in either direction will soon be able to
+                        control the servo packge for the camera, and more. <s>The camera is a
+                        Raspberry Pi "Pi Camera." Possible additions to the project include autonomy and computer vision elements.</s> The Pi Rover has broken into pieces
+                        as a result of poor traveling precautions...
+                    </p>
+            </div>
             <br>
             <br>
             <br>
-            <h2>SpaceLearn</h2>
-            <p>In 4th grade I had my first real astronomy unit. Of course it was basic and only really emphasized our solar system, but it nonetheless sparked my interest   
-            in space exploration. Hoping to provide that same spark to young elementary schoolers, I set out to create a visually stimulating and interactive 
-            web application. Still in the works, SpaceLearn will include a fully animated diagram of our solar system. Furthermore, 
-            a small display on the side of the screen will provide quantitative data about each planet as well as interesting facts and current news regarding the 
-            planet of interest. Space is awesome!</p>
-                <img style = "display: block; margin-left:auto; margin-right: auto;" src="images/spacelearn.png">
+
+            <div class = "content-inside">
+                <h1>Spudnik</h1>
+                    <img src="images/spudnik.png">
+                    <p>Spudnik is a puzzle game featuring a potato in space. I introduced the puzzle mechanic and setting to two of my friends
+                    and fellow engineers who together programmed what we have so far (Vladimir Klimkiv and Saveen Chadalawada). Aside from the mechanic and setting,
+                    my other contributions have been in the department of
+                    music composition and sound effect assets. The game is still far from complete and I hope to contribute both to level design and coding from here on out.
+                    Spudnik is being developed
+                    in the GameMaker Studio IDE and was started at a UCSD Game Jam (hackathon).
+                        <br><a style = "background-color: #ccc; border:solid black 1px; padding:2px;" href = "http://www.emberfrost.com/spudnik/play.html">Play it here!</a></p>
+            </div>
             <br>
             <br>
             <br>
-            
-            <h2>Evil Hangman</h2>
-                <p>Evil Hangman is a sadistic twist on the classic word game Hangman. In this command line style game, the computer actively utilizes the player's
-                    letter guesses to determine what word to choose. It does this in such a way that dramatically increases the likelihood of incorrectly guessing the 
-                    word in question. Using the Dictionary datatype and a recursive algorithm that repeatedly splits the dictionary into parts that can be selected upon based on the user's input,
-                    Evil Hangman's AI opponent is nearly impossible to defeat. Here is a sample run:
-                </p>
-                <img style = "display: block; margin-left:auto; margin-right: auto;" src="images/evilhangman.png">
-            
+
+            <div class = "content-inside">
+                <h1>SpaceLearn</h1>
+                <img src="images/spacelearn.png">
+                <p>In 4th grade I had my first real astronomy unit. Of course it was basic and only really emphasized our solar system, but it nonetheless sparked my interest
+                in space exploration. Hoping to provide that same spark to young elementary schoolers, I set out to create a visually stimulating and interactive
+                web application. Still in the works, SpaceLearn will include a fully animated diagram of our solar system. Furthermore,
+                a small display on the side of the screen will provide quantitative data about each planet as well as interesting facts and current news regarding the
+                planet of interest. SpaceLearn is written in HTML, CSS, and Javascript and may eventually require the use of SQL and PHP depending on how I will
+                implement notes and progress. Space is awesome!</p>
+
+            </div>
+            <br>
+            <br>
+            <br>
+
+            <div class = "content-inside">
+                <h1>Evil Hangman</h1>
+                    <img style = " display: block; width:50%; margin-right: auto; margin-left: auto;" src="images/evilhangman.png">
+
+                    <p>Evil Hangman is a sadistic twist on the classic word game Hangman. In this command line style game, the computer actively utilizes the player's
+                        letter guesses to determine what word to choose. It does this in such a way that dramatically increases the likelihood of incorrectly guessing the
+                        word in question. Using the Dictionary datatype and a recursive algorithm that repeatedly splits the dictionary into parts that can be
+                        selected based on the user's input,
+                        Evil Hangman's AI opponent is nearly impossible to defeat. Above is a sample run!
+                    </p>
+            </div>
+
             <h2>More Coming...</h2>
             <br>
             <br>
         </div>
-        
-    </body>  
 
+    </body>
